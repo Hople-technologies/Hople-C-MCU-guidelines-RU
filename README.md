@@ -1,1 +1,2 @@
-# Hople-C-MCU-guidelines-
+# Hople-C-MCU-guidelines
+- [ ] добавить лицензию
