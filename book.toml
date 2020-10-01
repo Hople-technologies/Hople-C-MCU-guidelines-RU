@@ -1,0 +1,9 @@
+[book]
+authors = ["Trimple"]
+language = "ru"
+multilingual = false
+src = "src"
+title = "Hople C MCU guidlines"
+
+[build]
+build-dir = "docs"
