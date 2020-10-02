@@ -89,7 +89,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded "><a href="hople_c_mcu_guidlines.html" class="active"><strong aria-hidden="true">1.</strong> Методические рекомендации Hople по программированию на С для микроконтроллеров</a></li><li><ol class="section"><li class="chapter-item expanded "><strong aria-hidden="true">1.1.</strong> Причины появления рекомендаций</li></ol></li><li class="chapter-item expanded "><a href="C_guidlines.html"><strong aria-hidden="true">2.</strong> Правила оформления кода на С</a></li><li class="chapter-item expanded "><a href="lib_types.html"><strong aria-hidden="true">3.</strong> Типы библиотек</a></li><li><ol class="section"><li class="chapter-item expanded "><strong aria-hidden="true">3.1.</strong> Implementation</li><li class="chapter-item expanded "><strong aria-hidden="true">3.2.</strong> Implementation independent</li><li class="chapter-item expanded "><strong aria-hidden="true">3.3.</strong> Plain libraries</li></ol></li><li class="chapter-item expanded "><a href="inimp_list.html"><strong aria-hidden="true">4.</strong> Список официальный inimp-библиотек</a></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded "><a href="hople_c_mcu_guidlines.html" class="active"><strong aria-hidden="true">1.</strong> Методические рекомендации Hople по программированию на С для микроконтроллеров</a></li><li><ol class="section"><li class="chapter-item expanded "><strong aria-hidden="true">1.1.</strong> Причины появления рекомендаций</li></ol></li><li class="chapter-item expanded "><a href="C_style_guidlines.html"><strong aria-hidden="true">2.</strong> Правила оформления кода на С</a></li><li class="chapter-item expanded "><a href="lib_types.html"><strong aria-hidden="true">3.</strong> Типы библиотек</a></li><li><ol class="section"><li class="chapter-item expanded "><strong aria-hidden="true">3.1.</strong> Implementation</li><li class="chapter-item expanded "><strong aria-hidden="true">3.2.</strong> Implementation independent</li><li class="chapter-item expanded "><strong aria-hidden="true">3.3.</strong> Plain libraries</li></ol></li><li class="chapter-item expanded "><a href="inimp_list.html"><strong aria-hidden="true">4.</strong> Список официальный inimp-библиотек</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -156,22 +156,22 @@
                 <div id="content" class="content">
                     <main>
                         <h1><a class="header" href="#Методические-рекомендации-hople-по-программированию-на-С-для-микроконтроллеров" id="Методические-рекомендации-hople-по-программированию-на-С-для-микроконтроллеров">Методические рекомендации Hople по программированию на С для микроконтроллеров</a></h1>
-<p>В <strong>Hople</strong> мы высокого ценим эффективность и качество во всех всех аспектах деятельности. Программное обеспечение для микроконтроллеров не является исключением. Мы считаем, что унификация способов разработки и тестирования - важный этап повышения качества и эффективности разработки программного обеспечения для встраиваемых систем.</p>
-<p>Имея в виду данную идею мы разработали и продолжаем обновлять этот набор правил и методов разработки и тестирования программного обеспечения встраиваемых систем.</p>
-<p><strong>В данном материале описаны</strong>:</p>
+<p>В <strong>Hople</strong> мы высокого ценим эффективность и качество во всех нашей аспектах деятельности. Программное обеспечение для микроконтроллеров не является исключением. От качества  встраиваемого ПО может зависеть жизнь и безопасность людей, некачественные алгоритмы могут приводить к выходу из строя управляемых систем и уменьшению общего срока службы, а плохая оптимизация и приводит к потреблению большого количества ресурсов, например электроэнергии. Мы считаем, что унификация способов разработки и тестирования - важный этап повышения качества и безопасности программного обеспечения для встраиваемых систем, а также эффективный способ сделать разработку дешевле и эффективнее.</p>
+<p>Имея в виду данную идею мы оформили и продолжаем обновлять этот набор правил и методов разработки и тестирования программного обеспечения встраиваемых систем.</p>
+<p><strong>В данной документации описаны</strong>:</p>
 <ul>
-<li>наши методические рекомендации по оформлению кода, написанного на язык С;</li>
+<li>наши методические рекомендации по стилю кода, написанного на языке С;</li>
 <li>наш взгляд на разделение кода на независимые компоненты (библиотеки) и наш подход к унификации данных компонентов;</li>
 <li>наш подход к тестированию и отладке встраиваемых систем.</li>
 <li>/Что-то, что я допишу потом, когда это что-то появится/</li>
 </ul>
-<p><strong>Данная информация распространяется свободно в соответствии с лицензией /написать лицензию/</strong>.</p>
+<p><strong>Данная информация распространяется в соответствии с лицензией /написать лицензию/</strong>.</p>
 <p><strong>Эта документация доступна на нескольких языках</strong>:</p>
 <ul>
 <li><a href="https://hople-technologies.github.io/Hople-C-MCU-guidelines-EN/hople_c_mcu_guidlines.html">English</a>;</li>
 <li><a href="https://hople-technologies.github.io/Hople-C-MCU-guidelines-RU/hople_c_mcu_guidlines.html">Русский</a>.</li>
 </ul>
-<p><strong>Мы активно приветствуем исправления и улучшения документа</strong>. Правила внесения исправления могут быть найдены в документе CONTRIBUTING.md в соответствующем репозитории на gitHub:</p>
+<p><strong>Мы активно приветствуем исправления и улучшения этой документации</strong>. Подробнее о внесении вклада можно почитать в файле CONTRIBUTING.md в соответствующем репозитории на gitHub:</p>
 <ul>
 <li>English source <a href="https://github.com/Hople-technologies/Hople-C-MCU-guidelines-EN">gitHub</a></li>
 <li>Русский исходник <a href="https://github.com/Hople-technologies/Hople-C-MCU-guidelines-RU">gitHub</a></li>
@@ -184,7 +184,7 @@
                         
 
                         
-                            <a rel="next" href="C_guidlines.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                            <a rel="next" href="C_style_guidlines.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                                 <i class="fa fa-angle-right"></i>
                             </a>
                         
@@ -198,7 +198,7 @@
                 
 
                 
-                    <a rel="next" href="C_guidlines.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                    <a rel="next" href="C_style_guidlines.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                         <i class="fa fa-angle-right"></i>
                     </a>
                 
