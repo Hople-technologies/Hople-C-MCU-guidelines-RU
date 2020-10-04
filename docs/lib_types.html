@@ -202,7 +202,7 @@
 <p>itf-библиотеки значительно упрощают разработчиком, так как избавляют их от оков конкретной архитектуры микроконтроллеров, так как раньше для каждой архитектуры приходилось разрабатывать собственные библиотеки. Кроме этого при желании разработчики могут игнорировать готовые HAL-библиотеки и разрабатывать свои, более подходящие по внутренним правилам интерфейсы, что также не отнимает гибкость разработки.</p>
 <p>Общая схема взаимодействия модулей показаны на рисунке ниже:</p>
 <p align="center">
-  <img width="360" src="https://github.com/Hople-technologies/Hople-C-MCU-guidelines-RU/blob/master/images/itf_in-implementation-sheme.png">
+  <img width="360" src="https://github.com/Hople-technologies/Hople-C-MCU-guidelines-RU/src/images/itf_in-implementation-sheme.png">
 </p>
 <p><strong>Правила формирования itf_in библиотек</strong> описаны в главе <a href="https://hople-technologies.github.io/Hople-C-MCU-guidelines-RU/lib_types/interfacing_independent.html">interfacing independent</a>.<br />
 Кроме этого мы сказали про itf-библиотеки, но не привели пример того, что под этим подразумеваем. <strong>itf-библиотеки</strong> - наш внутренний способ разработки HAL-библиотек для каждой конкретной печатной платы. Такой подход дает максимальный контроль и позволяет в удобном виде настраивать устройство и использовать любые подходящие itf-библиотеки.** В отличии от itf_in-библиотек мы не продвигаем повсеместное использование itf-библиотек**, но наш формат оформления описан в главе <a href="https://hople-technologies.github.io/Hople-C-MCU-guidelines-RU/lib_types/hardware_interfacing.html">hardware interfacing</a>.</p>

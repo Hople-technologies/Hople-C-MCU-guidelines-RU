@@ -56,7 +56,7 @@ itf-библиотеки значительно упрощают разрабо�
 Общая схема взаимодействия модулей показаны на рисунке ниже:
 
 <p align="center">
-  <img width="360" src="https://github.com/Hople-technologies/Hople-C-MCU-guidelines-RU/blob/master/images/itf_in-implementation-sheme.png">
+  <img width="360" src="https://github.com/Hople-technologies/Hople-C-MCU-guidelines-RU/src/images/itf_in-implementation-sheme.png">
 </p>
 
 **Правила формирования itf_in библиотек** описаны в главе [interfacing independent][interfacing independent].  
