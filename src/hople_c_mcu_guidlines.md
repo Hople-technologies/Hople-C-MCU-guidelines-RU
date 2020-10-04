@@ -17,5 +17,5 @@
 * [Русский](https://hople-technologies.github.io/Hople-C-MCU-guidelines-RU/hople_c_mcu_guidlines.html).
 
 **Мы активно приветствуем исправления и улучшения этой документации**. Подробнее о внесении вклада можно почитать в файле CONTRIBUTING.md в соответствующем репозитории на gitHub:
-* English source [gitHub](https://github.com/Hople-technologies/Hople-C-MCU-guidelines-EN)
-* Русский исходник [gitHub](https://github.com/Hople-technologies/Hople-C-MCU-guidelines-RU)
+* English source [GitHub](https://github.com/Hople-technologies/Hople-C-MCU-guidelines-EN)
+* Русский исходник [GitHub](https://github.com/Hople-technologies/Hople-C-MCU-guidelines-RU)
